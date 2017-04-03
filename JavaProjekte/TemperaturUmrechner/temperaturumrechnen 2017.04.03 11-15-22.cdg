@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="temperaturumrechnen">
+  <ClassDiagramComponents>
+    <Class name="Temperatur" package="temperaturumrechnen" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="tempInC" type="float" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="float" name="temp"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getTempInK" returnType="float" visibility="public"/>
+        <Method name="getTempInF" returnType="float" visibility="public"/>
+        <Method name="getTempInC" returnType="float" visibility="public"/>
+        <Method name="setTempInC" returnType="void" visibility="public">
+          <Argument type="float" name="val"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="TemperaturUmrechnen" package="temperaturumrechnen" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
