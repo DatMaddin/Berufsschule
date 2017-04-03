@@ -47,10 +47,10 @@ public class Mathematik
         return sum;
     }
 
-    // Soll überprüfen, ob das eingegebene Dreieck rechtwinklig ist
-    // hatte aber keine Lust über die Berechnung nachzudenken ;)
+    // Überprüfen, ob das Dreieck rechtwinklig ist
+    // HINWEIS: c = Gegenkathete, a + b = Ankathete
     public static boolean triangle (int a, int b, int c)
     {
-        return true ;
+        return pow(c, 2) == pow(a,2) + pow(b,2);
     }
 }
