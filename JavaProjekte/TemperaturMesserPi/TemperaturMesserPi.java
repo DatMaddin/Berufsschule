@@ -111,7 +111,6 @@ public class TemperaturMesserPi
     {
         int startPos, endPos;
         String strTemp;
-        double temperature;
         
         if (content.contains("t="))
         {
